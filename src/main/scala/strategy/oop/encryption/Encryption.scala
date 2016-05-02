@@ -1,4 +1,4 @@
-package strategy.encryption
+package strategy.oop.encryption
 
 /**
   * Created by starwix on 2.5.16.
