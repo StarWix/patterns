@@ -16,7 +16,7 @@ object Main extends App {
   mice.updateStatus(2, Option(LeftButton()), true)
 
   println("-------------")
-  
+
   mice.registerObserver(first)
   mice.removeObserver(fifth)
   mice.updateStatus(2, None, false)
