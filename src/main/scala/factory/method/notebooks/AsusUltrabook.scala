@@ -8,5 +8,5 @@ import factory.method.Notebook
 case class AsusUltrabook() extends Notebook {
   override def caseMaterial: String = "Aluminum"
   override def gpuType: String = "Integrated"
-  override def color: String = "Silver"
+  override def cpu: String = "Intel"
 }

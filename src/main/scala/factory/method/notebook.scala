@@ -6,16 +6,17 @@ package factory.method
 trait Notebook {
   def caseMaterial: String
   def gpuType: String
-  def color: String
+  def cpu: String
 
   def prepare: Unit =
     println(
       s"""prepare
          |caseMaterial: $caseMaterial
          |gpuType: $gpuType
-         |color: $color""".stripMargin)
+         |cpu: $cpu""".stripMargin)
 
   def test: Unit = println(s"test ${this}")
 
   def box: Unit = println(s"box ${this}\n")
 }
+

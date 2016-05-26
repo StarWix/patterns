@@ -8,5 +8,5 @@ import factory.method.Notebook
 case class LenovoUltrabook() extends Notebook {
   override def caseMaterial: String = "Plastic"
   override def gpuType: String = "Integrated"
-  override def color: String = "Silver"
+  override def cpu: String = "AMD"
 }
